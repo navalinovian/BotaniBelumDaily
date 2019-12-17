@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTanaman">
+
+    <RelativeLayout
+        android:id="@+id/category_akar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        >
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:id="@+id/akar_image"
+            android:text="Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:src="@drawable/akar_ency"
+            />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/akar_name"
+            android:text="Akar"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_below="@id/akar_image"
+            android:background="#4f0e0d0e"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_batang"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        >
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:id="@+id/batang_image"
+            android:text="Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:src="@drawable/batang_ency"
+            />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/batang_name"
+            android:text="Batang"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_below="@id/batang_image"
+            android:background="#4f0e0d0e"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_daun"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/category_akar"
+        >
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:id="@+id/daun_image"
+            android:text="Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:src="@drawable/daun_ency"
+            />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/daun_name"
+            android:text="Daun"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_below="@id/daun_image"
+            android:background="#4f0e0d0e"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_bunga"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/category_batang"
+        >
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:id="@+id/bunga_image"
+            android:text="Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+
+            android:src="@drawable/bunga_ency"
+            />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bunga_name"
+            android:text="Bunga"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_below="@id/bunga_image"
+            android:background="#4f0e0d0e"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/category_buah"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/category_bunga"
+        >
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="155dp"
+            android:id="@+id/buah_image"
+            android:text="Image"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:src="@drawable/buah_ency"
+            />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buah_name"
+            android:text="Buah"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_below="@id/buah_image"
+            android:background="#4f0e0d0e"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

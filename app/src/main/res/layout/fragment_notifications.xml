@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:id="@+id/foto_user"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center|top"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/round_bg"
+        android:layout_marginBottom="75dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:text="Logout"
+        android:textColor="@android:color/holo_red_light"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

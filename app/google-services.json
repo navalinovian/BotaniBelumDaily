@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "820549959764",
+    "firebase_url": "https://botanibelumdaily.firebaseio.com",
+    "project_id": "botanibelumdaily",
+    "storage_bucket": "botanibelumdaily.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820549959764:android:6bcab143fbf67d75b06dc1",
+        "android_client_info": {
+          "package_name": "com.example.botanibelumdaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820549959764-rs4i6svrlohgkf25sv7od3dsdpnjd968.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.botanibelumdaily",
+            "certificate_hash": "5f814f61a9fd5f700904e9e6a8c2e38a90681f09"
+          }
+        },
+        {
+          "client_id": "820549959764-bikaoik5aev5r0p1m649gim77t41uh12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgNgGAjKbXpX-VWCSdI2be4ZYNKacj6-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820549959764-bikaoik5aev5r0p1m649gim77t41uh12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
