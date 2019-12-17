@@ -1,21 +1,22 @@
-package com.example.botanibelumdaily;
+package com.example.botanibelumdaily.Models;
 
 import com.google.firebase.database.Exclude;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Tanaman {
+public class TanamanRinci {
+
 
     public String nama;
     public String deskripsi;
     public String waktu;
     public String gambar;
 
-    public Tanaman() {
+    public TanamanRinci() {
     }
 
-    public Tanaman(String nama, String deskripsi, String waktu, String gambar) {
+    public TanamanRinci(String nama, String deskripsi, String waktu, String gambar) {
         this.nama = nama;
         this.deskripsi = deskripsi;
         this.waktu = waktu;
@@ -63,5 +64,6 @@ public class Tanaman {
         result.put("gambar", gambar);
         return result;
     }
+
 
 }
