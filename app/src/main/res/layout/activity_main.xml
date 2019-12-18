@@ -11,13 +11,13 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/bunga_splashscreen"
         />
     <TextView
         android:textColor="@android:color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ceritanya Splash Screen"
+        android:text="Daily Botani"
         android:layout_marginTop="220dp"
         android:layout_gravity="center"
         android:textSize="20sp"
