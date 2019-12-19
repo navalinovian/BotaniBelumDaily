@@ -20,7 +20,8 @@
         android:text="Daily Botani"
         android:layout_marginTop="220dp"
         android:layout_gravity="center"
-        android:textSize="20sp"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins_bold"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
