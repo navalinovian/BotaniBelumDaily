@@ -57,8 +57,12 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(v -> SignInGoogle());
 
         if (mAuth.getCurrentUser() != null){
-//            FirebaseUser user = mAuth.getCurrentUser();
+            FirebaseUser user = mAuth.getCurrentUser();
+
             Intent intent = new Intent(LoginActivity.this, MainMenu.class);
+
+            intent.putExtra("token", user.getUid());
+
             startActivity(intent);
         }
 
@@ -102,8 +106,14 @@ public class LoginActivity extends AppCompatActivity {
                         dbRef.child(user.getUid()).setValue(userdat);
                         dbRef.child(user.getUid()).child("nama").setValue("null");
 
-                        Toast.makeText(LoginActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
+                        System.out.println(user.getUid());
+
                         Intent intent =  new Intent(this, MainMenu.class);
+
+                        intent.putExtra("token", user.getUid());
+
+                        Toast.makeText(LoginActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
+
                         startActivity(intent);
                     } else {
                         progressBar.setVisibility(View.INVISIBLE);
@@ -115,6 +125,4 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
-
-
 }

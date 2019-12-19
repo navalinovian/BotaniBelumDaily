@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="0dp"
+    android:id="@+id/cardListTanaman"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_nama_tanaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Tanaman"
+                />
+
+            <TextView
+                android:id="@+id/list_deskripsi_tanaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi Tanaman"
+                />
+
+            <TextView
+                android:id="@+id/list_waktu_tanaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu Tanaman"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/list_gambar_tanaman"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

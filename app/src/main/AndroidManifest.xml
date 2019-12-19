@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoTitleBar">
-        <activity android:name=".DetailTanaman"></activity>
+        <activity android:name=".ui.home.AlarmActivity"></activity>
+        <activity android:name=".ui.home.TambahListTanaman" />
+        <activity android:name=".DetailTanaman" />
         <activity android:name=".ListTanaman" />
         <activity
             android:name=".MainMenu"
@@ -24,6 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name=".ui.home.AlertReceiver"/>
+
     </application>
 
 </manifest>
