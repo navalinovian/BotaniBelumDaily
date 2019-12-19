@@ -60,7 +60,7 @@ public class TambahListTanaman extends AppCompatActivity {
         strRef = FirebaseStorage.getInstance().getReference();
 
         upload = findViewById(R.id.submit_list_tanaman);
-        back = findViewById(R.id.kembali);
+//        back = findViewById(R.id.kembali);
         
         txtNamaTanaman = findViewById(R.id.edit_text_nama_tanaman);
         txtDesTanaman = findViewById(R.id.edit_text_deskripsi_tanaman);
@@ -68,13 +68,13 @@ public class TambahListTanaman extends AppCompatActivity {
 
         txtWaktuTanaman.setMaxValue(100);
         txtWaktuTanaman.setMinValue(1);
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Kembali();
-            }
-        });
+//
+//        back.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Kembali();
+//            }
+//        });
         
         upload.setOnClickListener(new View.OnClickListener(){
             @Override
